@@ -124,7 +124,7 @@ export default function Home() {
     intervals.push(counterInterval);
   }
 
-  function showWords(screen, words, span) {
+  function showWords(screen, words) {
 
     const wordsList = generateSentence(75).split(" ");
     const intervalMilliSeconds = 60 / words * 1000;
